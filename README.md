@@ -1,10 +1,10 @@
 # Bank-Application-using-Python
-This project is a console-based Bank Application simulation developed in Python. It demonstrates fundamental programming concepts, including API integration, data persistence using JSON, user authentication, and core transactional logic (Deposit, Withdrawal, Balance Inquiry).
+This project is a console-based Bank Application simulation developed in Python. It demonstrates fundamental programming concepts, including API integration, data persistence using JSON, user authentication, and core transactional logic such as Deposit, Withdrawal, and Balance Inquiry.
 
 ## Features
-**User Generation:** Automatically populates a database with 10 unique user accounts (username and password) by fetching data from the external randomuser.me/api/.
+**User Generation:** Automatically populates a database with 10 unique user accounts with username and password by fetching data from the external randomuser.me/api/.
 
-**Data Persistence:** Uses the built-in json library to store and retrieve all user account information (username, password, and current Balance) in a local file named dump.json.
+**Data Persistence:** Uses the built-in json library to store and retrieve all user account information contains username, password, and current Balance in a local file named dump.json.
 
 **User Authentication:** Implements a robust login mechanism with a search function to validate the entered username and a password check with a limited number of retries.
 
@@ -27,4 +27,4 @@ Libraries: requests, json
 
 API: https://randomuser.me/api/
 
-Data Storage: JSON file (dump.json)
+Data Storage: Used dump.json in JSON file to Update the Data.
